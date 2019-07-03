@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+  a:link {
+	  color: #FFF; 
+	  text-decoration: none; 
+	  background-color: transparent}
+
+  a:visited {
+	  color: #FFF;
+	  text-decoration: none; 
+	  background-color: transparent}
+
+  a:hover {
+	  color: #FFF;
+	  text-decoration: underline; 
+	  background-color: transparent}
+
+  a:active { 
+  	color: #FFF;
+  	text-decoration: underline; 
+  	background-color: transparent }
+	
+table {
+	border-right-color:#999;
+	border-right-style:groove;
+	border-left-color:#999;
+	border-left-style:groove;
+	border-top-color:#999;
+	border-top-style:groove;
+}
+td {
+	background-color:#999;	
+}
+	
+.topo {
+	background-image:url(img/titulo.PNG);
+	position: absolute;
+	width: 810px;
+	height: 125px;
+	left: 42px;
+	top: 107px;
+}
+
+.cabeca {
+	position: absolute;
+	width: 810px;
+	height: 29px;
+	left: 42px;
+	top: 243px;
+	background-image:url(img/menu.png);
+}	
+.corpo {
+	font-size: 14px;
+	color: #FFF;
+	background-color: #060;
+	position:absolute;
+	float: center;
+	width: 599px;
+	left: 242px;
+	top: 317px;
+}
+
+.lateral {
+	right: 682px;
+	color: #FFF;
+	background-color: #060;
+	position:absolute;
+	float: left;
+	left: 63px;
+	top: 276px;
+	width: 167px;
+}
+
+.status {
+	right: 682px;
+	color: #FFF;
+	background-color: #000;
+	background-image:url(img/status.png);
+	position:absolute;
+	left: 242px;
+	top: 276px;
+	width: 599px;
+	height: 22px;
+}
+
+.ads {
+	position:absolute;
+	top: 1px;
+	left: 82px;
+}
+
+body {
+	background-color: #000;
+}
